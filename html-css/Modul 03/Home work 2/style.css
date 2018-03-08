@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    text-align: center;
+}
+a:hover{
+    text-decoration: none;
+    color: aqua;
+}
+.nav li{
+    display: inline-block;
+    padding: 15px 60px 60px 60px;
+    list-style: none;
+    font-size: x-large;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+article {
+    display: inline-block;
+    padding: 60px;
+    text-align: left;
+}
+.Photo{
+    max-width: 420px;
+}
+main{
+    padding: 50px 350px;
+}
