@@ -153,3 +153,25 @@ ul{
 .footer-item:last-child{
     margin-right: 0;
 }
+.license-item{
+    display: inline-block;
+    padding: 0 15px;
+    border-right: 1px solid #73767a;
+}
+.license{
+    display: inline-block;
+}
+.license-link, .copyright {
+    color: #73767a;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.copyright{
+    display: inline-block;
+    padding: 15px;
+}
+.footer-bottom{
+    text-align: right;
+    padding: 15px 0;
+}
