@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list-item{
+    float: left;
+    margin-right: 15px;
+    padding:15px;
+}
+.list{
+    background-color: #0ebfdd;
+    list-style: none;
+}
+.clearfix:after{
+    display: block;
+    content:"" ;
+    clear: both;
+}
+.list-item:hover{
+    background-color: #45494d;
+    color: #d7edf8;
+    border: 1px solid #538a9e;
+    border-radius: 50%;
+}
+.list-item:last-child{
+    margin-right: 0;
+}
