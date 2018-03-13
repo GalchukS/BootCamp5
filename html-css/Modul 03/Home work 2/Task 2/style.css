@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 .wrapper{
-    text-align: center;
-    margin: 10px;
+    margin: auto;
+    max-width: 900px;
 }
 .navigation li{
     display: inline-block;
-    padding: 15px 40px 60px 60px;
+    margin: 15px;
     text-transform: uppercase;
+    text-align: center;
 
 }
 a{
@@ -26,17 +27,23 @@ article{
     width: 430px;
     padding-left: 0;
 }
-main{
-    text-align: center;
-}
-.Photo{
-    text-align: left;
-}
 footer{
     text-align: center;
-    padding-top: 45px;
+    margin-top: 45px;
 }
 button{
     width: 100px;
     height: 45px;
+}
+ul{
+    text-align: center;
+}
+.navigation li:last-child{
+    margin-right: 0px;
+}
+article:nth-of-type(2n+1){
+    margin-right: 20px;
+}
+p{
+    margin-top: 10px;
 }
