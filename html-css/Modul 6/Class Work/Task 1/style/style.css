@@ -1,0 +1,28 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(to left, rgba(255, 68, 94, 0.83), rgba(182,164,164,0.7));
+}
+.photo-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    align-content: space-around;
+    height: 100vh;
+
+}
+img{
+    display: block;
+    width: 400px;
+    height: 150px;
+}
+.photo-img {
+    text-decoration: none;
+}
