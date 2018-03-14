@@ -55,7 +55,7 @@ ul{
 
 .block-list:hover{
     background-color: #35c935;
-    padding-top: 10px;
+    /*padding-top: 10px;*/
 }
 li{
     width: 122px;
