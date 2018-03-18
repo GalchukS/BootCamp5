@@ -223,11 +223,11 @@ img{
     border: 10px solid rgba(255,255,255,0.5);
 }
 .icon{
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
     position: absolute;
     display: block;
-    top: 80px;
+    top: 208px;
     left: 28px;
     border: 1px solid white;
     transition: 1s;

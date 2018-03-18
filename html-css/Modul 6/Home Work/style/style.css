@@ -1,0 +1,272 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    margin: auto;
+    padding: 0 5px;
+    max-width: 1200px;
+}
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    color: #95e1d3;
+    font-size: 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 80px;
+    align-items: center;
+}
+.menu-nav{
+    display: flex;
+    justify-content: space-between; /* выравнвает меню по правом краю в строку*/
+}
+.menu-link{
+    font-family: 'Montserrat', sans-serif;
+    color: #95e1d3;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav{
+    flex-basis: 500px; /* ширина во flex*/
+}
+.menu-link:hover{
+    color: #f38181;
+    padding-bottom: 10px;
+    border-bottom: solid 3px #f38181;
+    transition: linear 200ms;
+}
+.work{
+    padding: 90px 0 0;
+}
+.work-info{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+.work-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-info-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    padding-bottom: 30px;
+}
+.main-info-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    padding-bottom: 30px;
+}
+.menu-main{
+    display: flex;
+    max-height: 235px;
+    flex-direction: column;
+    flex-wrap: wrap; /*разрешает перенос строки*/
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main-info{
+    width: 290px;
+    position: relative;
+}
+.icon-main{
+    position: absolute;
+    left: -40px;
+    top: 5px;
+}
+.work-title::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    margin: 40px auto 60px;
+    background-color:  #f38181;
+    display: block;
+}
+.team{
+    text-align: center;
+    margin-top: 90px;
+}
+.team-main{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+.team-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.team-title::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    margin: 40px auto 60px;
+    background-color: #f38181;
+    display: block;
+}
+.team-info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+}
+.img-name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+.img-info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #afafaf;
+    padding-top: 15px;
+}
+.team-photo{
+    display: flex;
+    max-height: 600px;
+    flex-direction: column;
+    flex-wrap: wrap; /*разрешает перенос строки*/
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.team-cover{
+    position: absolute;
+    height: 472px;
+    width: 382px;
+    display: none;
+    color: rgba(237, 137, 137,0.8);
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: block;
+    top: 208px;
+    left: 28px;
+    border: 2px solid white;
+    background-position: center;
+    border: solid 2px  rgba(237, 137, 137,0.8);
+    border-radius: 2px;
+
+}
+.icon1{
+    background-image: url(../icon/facebook@1X.png);
+    left: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fce38a;
+    /*border-right: solid 3px #f38181;*/
+}
+.icon2{
+    background-image: url(../icon/instagram@1X.png);
+    left: 139px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fce38a;
+}
+.icon3{
+    background-image: url(../icon/pinterest@1X.png);
+    left: 198px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fce38a;
+}
+.icon4{
+    background-image: url(../icon/twitter@1X.png);
+    left: 257px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fce38a;
+}
+.icon:hover{
+    background-color: rgba(237, 137, 137,0.4);
+    transform: translate(-15px, -10px);
+    transition: linear 200ms;
+    transition: linear 200ms;
+}
+.team-wrapper:hover > .team-cover{
+    display: block;
+    background-color: rgba(149,225,211,0.6);
+    webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+}
+.team-wrapper:hover{
+    transform: translate(-10px, -10px);
+    transition: linear 200ms;
+}
+.footer{
+    border-top: 4px solid #e7e7e7;
+    display: flex;
+    min-height: 70px;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+footer-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    color: #adadad;
+}
+.footer-color{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    color: #f38181;
+}
+.subbscribe{
+    display: flex;
+}
+.email{
+    min-width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 10px 30px;
+    border: 3px solid #adadad;
+    border-radius: 7px;
+}
+.subscribe-btn{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-left: -15px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    border: 3px solid #adadad;
+    border-radius: 7px;
+}
+/*transform: rotate(360deg);*/
+    /*transition: linear 200ms;*/
+
+/*.team-cover:hover > .team-cover{*/
+    /*transform: translate(-10px, -10px);*/
+    /*opacity: 1;*/
+    /*transition: linear 200ms;*/
+/*}*/
+
+/*.team-wrapper:hover{*/
+    /*color: #ffa082;*/
+    /*display: block;*/
+/*}*/
+/*.main-info-title{*/
+    /*padding-bottom: 100px;*/
+/*}*/
