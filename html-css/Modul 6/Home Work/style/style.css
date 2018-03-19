@@ -10,7 +10,6 @@
 .container{
     margin: auto;
     padding: 0 5px;
-    max-width: 1200px;
 }
 .logo{
     font-family: 'Montserrat', sans-serif;
@@ -58,6 +57,10 @@
     text-align: center;
     text-transform: uppercase;
 }
+.container2 {
+    flex-basis: 80%;
+    /*flex-direction: column;*/
+}
 .main-info-title{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -74,19 +77,19 @@
 .menu-main{
     display: flex;
     max-height: 235px;
-    flex-direction: column;
     flex-wrap: wrap; /*разрешает перенос строки*/
     align-items: center;
     justify-content: space-evenly;
 }
 .main-info{
-    width: 290px;
-    position: relative;
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+
 }
 .icon-main{
-    position: absolute;
-    left: -40px;
-    top: 5px;
+    align-self: flex-start;
+    justify-content: space-between;
 }
 .work-title::after{
     content: "";
@@ -153,9 +156,9 @@
     width: 382px;
     display: none;
     background-image: linear-gradient(to bottom, rgba(239,139,138,0.8),rgba(228,207,129,0.8));
-    -webkit-box-shadow: 10px 10px 3px 5px rgba(149,225,211,0.7);
-    -moz-box-shadow: 10px 10px 3px 5px rgba(149,225,211,0.7);
-    box-shadow: 10px 10px 3px 5px rgba(149,225,211,0.7);
+    -webkit-box-shadow: 5px 5px 3px 5px rgba(149,225,211,0.7);
+    -moz-box-shadow: 5px 5px 3px 5px rgba(149,225,211,0.7);
+    box-shadow: 5px 5px 3px 5px rgba(149,225,211,0.7);
 }
 .icon{
     width: 50px;
@@ -201,15 +204,15 @@
 }
 .icon:hover{
     background-color: rgba(237, 137, 137,0.4);
-    transform: translate(-15px, -10px);
+    transform: translate(-10px, -10px);
     transition: linear 200ms;
 }
 .team-wrapper:hover > .team-cover{
     display: block;
-    background-color: rgba(149,225,211,0.6);
-    webkit-transform: scale(1.08);
-    -ms-transform: scale(1.08);
-    transform: scale(1.08);
+    background-color: rgba(149,225,211,0.3);
+    webkit-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
 }
 .team-wrapper:hover{
     transform: translate(-10px, -10px);
