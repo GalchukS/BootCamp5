@@ -1,0 +1,155 @@
+@import "fonts.css";
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    max-width: 58.75rem;
+    animation: flip 3s 1;
+}
+.logo{
+    font-size: 1.625rem;
+    text-decoration: none;
+    font-family: 'Wisdom';
+    color: #feda5e;
+    text-transform: capitalize;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 80px;
+    align-items: center;
+    margin-bottom: 5.625rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family:'Montserrat';
+    text-transform: uppercase;
+    color: #222222;
+}
+.menu-item:hover{
+    color: #feda5e;
+}
+.menu-item{
+    list-style: none;
+    font-size: 0.875rem;
+}
+.nav{
+    flex-basis: 31.25rem;
+}
+.services{
+    text-align: center;
+    margin-bottom: 6.875rem;
+}
+.services-item{
+    font-size:  2.5rem;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+}
+.services-title {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    color: #c0c0c0;
+}
+.services-articles{
+    display: flex;
+    justify-content: space-around;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    margin-top: 6.875rem;
+}
+.services-section{
+    max-width: 17.5rem;
+}
+img{
+    padding-bottom: 1.1rem;
+}
+.services-h{
+    font-family: 'Roboto';
+    font-size: 1.125rem;
+    padding-bottom: 1rem;
+}
+.services-info{
+    font-family: 'Roboto';
+    font-size: 0.875rem;
+    color: #898989;
+}
+.container-contacts{
+    margin: auto;
+    max-width: 58.75rem;
+    text-align: center;
+    padding-bottom: 5.5rem;
+}
+.wrapper-contacts{
+    background-color: #222222;
+    background-image: url(../img/Map-Image@1X.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.contacts-h{
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    padding-top: 6.563rem;
+}
+.contacts-p{
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color: #777777;
+    text-align: center;
+    padding:  1.25rem 0 4.375rem;
+}
+.form {
+    display: flex;
+    justify-content: space-between;
+    min-height: 13.13rem;
+}
+input{
+    font-family: 'Montserrat';
+    font-size: 0.9rem;
+    border-radius: 0.2rem;
+
+}
+
+    /*flex-basis: 28.44rem;*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*align-content: space-between*/
+/*}*/
+.your-message{
+    display: flex;
+    flex-basis: 28.5rem;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.field{
+    flex-basis: 100%;
+    /*flex-basis: 28.44rem;*/
+    min-height: 3.124rem;
+    padding-left: 1rem;
+    /*justify-content: space-between;*/
+    /*flex-direction: column;*/
+}
+.message{
+    flex-basis: 28.44rem;
+}
+.btn{
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+    color: #ffffff;
+    width: 15rem;
+    margin-top: 2rem;
+    line-height: 4.1rem;
+    text-transform: uppercase;
+    background-color: #fed136;
+}

@@ -1,0 +1,45 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-task1{
+    min-width: 320px;
+    max-width: 960px;
+    /*background-color: #ffa082;*/
+    margin: auto;
+    /*height: 10vh;*/
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    max-width: 960px;
+    background-color: yellow;
+    height: 10vh;
+    margin: auto;
+}
+.footer{
+    min-width: 320px;
+    max-width: 960px;
+    margin: auto;
+    background-color: green;
+    height: 10vh;
+}
+.task1-info{
+    width: 50%;
+    height: 21rem;
+    background-color: blue;
+}
+.task2-info{
+    width: 23%;
+    height: 21rem;
+    background-color: grey;
+}
+.task3-info{
+    width: 23%;
+    height: 21rem;
+    background-color: red;
+}

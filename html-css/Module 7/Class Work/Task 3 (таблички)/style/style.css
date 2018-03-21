@@ -1,0 +1,25 @@
+@import"fonts.css";
+
+caption{
+    font-family: 'Sketchetica', sans-serif;
+    font-weight: bold;
+}
+td{
+    border: solid 2px black;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    padding: 10px;
+    font-weight: bold;
+    border: solid 2px black;
+    background-color: #1abc9c;
+}
+.separate{
+    margin: 50px auto ;
+
+}
+td:first-child{
+    text-transform: uppercase;
+    text-align: left;
+}

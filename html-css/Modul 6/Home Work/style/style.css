@@ -78,18 +78,20 @@
     display: flex;
     max-height: 235px;
     flex-wrap: wrap; /*разрешает перенос строки*/
-    align-items: center;
+    align-content: center;
     justify-content: space-evenly;
 }
 .main-info{
     display: flex;
     flex-basis: 30%;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    /*justify-content: center;*/
 
 }
 .icon-main{
     align-self: flex-start;
-    justify-content: space-between;
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
 }
 .work-title::after{
     content: "";
