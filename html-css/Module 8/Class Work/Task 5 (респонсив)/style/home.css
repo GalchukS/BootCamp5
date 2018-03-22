@@ -1,0 +1,84 @@
+@import "var.css";
+@import "reset.css";
+@import "header.css";
+@import "footer.css";
+
+.wrapper-img{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/home-bg.jpg');
+    animation: flip 1.5s 1;
+}
+.about{
+    padding: 7.53rem 0;
+}
+.sub-title{
+    color: #bfba55;
+    text-align: center;
+    margin: 1.5rem 0 3.25rem;
+    font-size: 0.8rem;
+}
+.neuron{
+    text-transform: uppercase;
+    color: #bfba55;
+}
+.button{
+    display: block;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 0.81rem 1.375rem;
+    border: 2px solid #ffffff;
+    text-transform: uppercase;
+    border-radius: 6.25rem;
+    font-weight:bold;
+    transition: 1s;
+}
+.button:hover{
+    color: #ffffff;
+    background-color: transparent;
+}
+.home-img{
+    margin-bottom: 2.625rem;
+}
+.post-info{
+    display: flex;
+    align-items: flex-start;
+    font-size: 0.85rem;
+    justify-content: space-between;
+    margin-bottom: 1.375rem;
+}
+.post{
+    border-radius: 50%;
+    width: 2.62rem;
+}
+.post-desc{
+    flex-basis: 20%;
+    text-align: center;
+}
+.post-button{
+    margin: 0;
+    border: 2px solid #777777;
+    color: #777777;
+    text-transform: capitalize;
+}
+.post-button:hover{
+    background-color: #bfba55;
+    color: #ffffff;
+    border: 2px solid #bfba55;
+}
+.text{
+    margin-bottom: 2.25rem;
+}
+.main-article{
+    margin-bottom: 7.25rem;
+}
+@media(min-width: 768px){
+    .main{
+        padding: 7.125rem;
+    }
+    .post-info{
+       width: 76%;
+    }
+    .post-desc{
+        flex-basis: 30%;
+    }
+}
+
