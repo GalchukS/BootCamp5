@@ -1,0 +1,108 @@
+@import "animate.css";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.wrapper-bg {
+    background-image: url('../img/bg-main.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container {
+    min-width: 320px;
+    max-width: 944px;
+    margin: auto;
+}
+.header{
+    margin-bottom: 2.5rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 90%;
+    padding: 1.125rem 5.188rem 7.25rem;
+
+}
+.btn {
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 1s;
+}
+.btn:hover{
+    color: #ff4e50;
+    animation: shake 2s;
+    border: 0.130rem solid #ff4e50;
+    border-radius: 2rem;
+    background-color: transparent;
+
+
+
+}
+.logo{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main{
+    padding-bottom: 8.125rem;
+}
+.title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.text-title{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+}
+.btn-title{
+    display: block;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ff4e50;
+    border-radius: 2rem;
+    padding: 0.75rem 3.125rem;
+    transition: 1s;
+    border: none;
+}
+.btn-title:hover{
+    background-color: transparent;
+    color:#ff4e50;
+    border: 0.130rem solid #ff4e50
+}
+.holiday-section{
+    text-align: center;
+    padding: 4.25rem 0 3.125rem;
+}
+.holiday{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.375em;
+    padding: 0 1.875rem;
+    margin-bottom: 0.92rem;
+}

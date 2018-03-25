@@ -1,0 +1,40 @@
+@import "animate.css";
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    background-color: #61aefd;
+    /*height: 100vh;*/
+}
+.col-8{
+    background-color: #ffa082;
+    text-align: center;
+    font-size:6rem;
+    animation: rubberBand 2s infinite;
+}
+.col-12{
+    background-color: #ffa082;
+    text-align: center;
+    font-size:9rem;
+    animation: lightSpeedIn 2s infinite;
+}
+/*.margin{*/
+    /*margin-bottom: 1.5rem;*/
+/*}*/
+.black{
+    background-color: #0E1116;
+    color: #e9f0fd;
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background-color: pink;
+}
+.green{
+    background-color: green;
+}

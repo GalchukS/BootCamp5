@@ -14,7 +14,7 @@
 .logo{
     font-size: 1.625rem;
     text-decoration: none;
-    font-family: 'Wisdom';
+    font-family: 'Wisdom' , sans-serif;
     color: #feda5e;
     text-transform: capitalize;
 }
@@ -29,8 +29,7 @@
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
-    font-family:'Montserrat';
-    text-transform: uppercase;
+    font-family:'Montserrat' , sans-serif;
     color: #222222;
 }
 .menu-item:hover{
@@ -49,12 +48,12 @@
 }
 .services-item{
     font-size:  2.5rem;
-    font-family: 'Roboto';
+    font-family: 'Roboto' , sans-serif;
     text-transform: uppercase;
 }
 .services-title {
     font-size: 1rem;
-    font-family: 'Roboto';
+    font-family: 'Roboto' , sans-serif;
     color: #c0c0c0;
 }
 .services-articles{
@@ -71,12 +70,12 @@ img{
     padding-bottom: 1.1rem;
 }
 .services-h{
-    font-family: 'Roboto';
+    font-family: 'Roboto' , sans-serif;
     font-size: 1.125rem;
     padding-bottom: 1rem;
 }
 .services-info{
-    font-family: 'Roboto';
+    font-family: 'Roboto' , sans-serif;
     font-size: 0.875rem;
     color: #898989;
 }
@@ -94,14 +93,14 @@ img{
     background-position: right;
 }
 .contacts-h{
-    font-family: 'Roboto';
+    font-family: 'Roboto' , sans-serif;
     font-size: 2.5rem;
     color: white;
     text-align: center;
     padding-top: 6.563rem;
 }
 .contacts-p{
-    font-family: 'Roboto';
+    font-family: 'Roboto' , sans-serif;
     font-size: 1rem;
     color: #777777;
     text-align: center;
@@ -113,7 +112,7 @@ img{
     min-height: 13.13rem;
 }
 input{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
     border-radius: 0.2rem;
 
@@ -142,7 +141,7 @@ input{
     flex-basis: 28.44rem;
 }
 .btn{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat' , sans-serif;
     font-size: 1rem;
     display: block;
     margin: auto;
@@ -153,3 +152,5 @@ input{
     text-transform: uppercase;
     background-color: #fed136;
 }
+input[requried]:valid,
+textarea[required]:valid
