@@ -1,8 +1,11 @@
+/*@import "tablet.css";*/
+/*@import "desktop.css";*/
 @import "animate.css";
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    outline: 0 !important;
     padding: 0;
     margin: 0;
 }
@@ -15,8 +18,8 @@
     background-attachment: fixed;
 }
 .container {
-    min-width: 320px;
-    max-width: 944px;
+    min-width: 20rem;
+    max-width: 58.88rem;
     margin: auto;
 }
 .header{
@@ -25,12 +28,12 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    flex-basis: 90%;
+    flex-basis: 50%;
     padding: 1.125rem 5.188rem 7.25rem;
 
 }
 .btn {
-    display: block;
+    /*display: block;*/
     margin: auto;
     padding: 0.5rem;
     font-family: 'Montserrat', sans-serif;
@@ -38,6 +41,9 @@
     color: #ffffff;
     font-weight: bold;
     transition: 1s;
+    border: 0.135rem solid #ffffff;
+    background-color: transparent;
+    border-radius: 2rem;
 }
 .btn:hover{
     color: #ff4e50;
@@ -45,8 +51,6 @@
     border: 0.130rem solid #ff4e50;
     border-radius: 2rem;
     background-color: transparent;
-
-
 
 }
 .logo{
@@ -70,6 +74,7 @@
     font-weight: bold;
     font-size: 2rem;
     animation: tada 3s;
+
 }
 .text-title{
     text-align: center;
@@ -99,13 +104,16 @@
 .holiday-section{
     text-align: center;
     padding: 4.25rem 0 3.125rem;
+    max-width: 50rem;
 }
 .holiday{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.375em;
-    padding: 0 1.875rem;
-    margin-bottom: 0.92rem;
+    padding: 0 1.875rem 1.25rem;
+    margin: 0.92rem auto;
+
+    /*margin: auto;*/
 }
 .name{
     text-transform: capitalize;
@@ -158,3 +166,54 @@
     color:#ffffff;
     border: 0.130rem solid #ff4e50
 }
+
+@media(min-width: 768px) {
+    .header {
+        display: flex;
+        margin: auto;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .btn {
+        flex-basis: 30%;
+    }
+
+    .logo {
+        margin: 1.425rem 0 0 6rem;
+    }
+
+    .main {
+        margin-top: 9.5rem;
+        padding-bottom: 14.63rem;
+    }
+
+    .title {
+        font-size: 3.875rem;
+        padding: 0 2rem 0;
+    }
+
+    .holiday-section {
+        margin: auto;
+        max-width: 42.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    .art-holiday {
+        flex-basis: 48%;
+    }
+    .text{
+        padding: 0;
+    }
+    .holiday {
+        margin: auto;
+    }
+}
+/*@media(min-width: 942px) {*/
+    /*.art-holiday {*/
+        /*flex-basis: 25%;*/
+    /*}*/
+/*}*/
+
