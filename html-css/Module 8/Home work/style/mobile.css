@@ -69,6 +69,7 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2rem;
+    animation: tada 3s;
 }
 .text-title{
     text-align: center;
@@ -105,4 +106,55 @@
     font-size: 1.375em;
     padding: 0 1.875rem;
     margin-bottom: 0.92rem;
+}
+.name{
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: #8f8f8f;
+    margin-top: 1.25rem;
+    padding: 0 3.75rem;
+}
+.art-holiday{
+    margin-bottom: 1.75rem;
+}
+.img-img{
+    width: 7.5rem;
+    height: 7.5rem;
+    margin: auto;
+    position: relative;
+}
+.holiday-img{
+    border-radius: 50%;
+}
+.img-icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    animation: rubberBand 1s;
+}
+.btn-hol{
+    display: block;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: #ff4e50;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 2rem;
+    padding: 0.75rem 3.125rem;
+    transition: 1s;
+    border: 0.130rem solid #ff4e50
+}
+.btn-hol:hover{
+    background-color: #ff4e50;
+    color:#ffffff;
+    border: 0.130rem solid #ff4e50
 }
