@@ -1,0 +1,77 @@
+body .svg-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+body .svg-container svg {
+    margin-bottom: -4px;
+}
+body .svg-container svg circle {
+    stroke-dasharray: 502.65;
+    stroke-dashoffset: 0;
+}
+body .svg-container:not(.spin) svg circle {
+    -webkit-animation: peel 8s linear infinite;
+    animation: peel 8s linear infinite;
+}
+body .svg-container.spin {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-animation: rotate 8s linear infinite;
+    animation: rotate 8s linear infinite;
+}
+body .svg-container.spin svg {
+    -webkit-transform: translateX(160px) rotate(180deg);
+    transform: translateX(160px) rotate(180deg);
+}
+body .svg-container.spin svg circle {
+    -webkit-animation: peel 8s linear infinite -4s;
+    animation: peel 8s linear infinite -4s;
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translate(-50%, -50%) rotate(-720deg);
+        transform: translate(-50%, -50%) rotate(-720deg);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        -webkit-transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translate(-50%, -50%) rotate(-720deg);
+        transform: translate(-50%, -50%) rotate(-720deg);
+    }
+}
+@-webkit-keyframes peel {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dashoffset: 502.65;
+    }
+    100% {
+        stroke-dashoffset: 1005.31;
+    }
+}
+@keyframes peel {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dashoffset: 502.65;
+    }
+    100% {
+        stroke-dashoffset: 1005.31;
+    }
+}
+
