@@ -21,6 +21,7 @@
     min-width: 20rem;
     max-width: 58.88rem;
     margin: auto;
+    padding: 1rem 0.9rem;
 }
 .header{
     margin-bottom: 2.5rem;
@@ -29,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     flex-basis: 50%;
-    padding: 1.125rem 5.188rem 7.25rem;
+    margin: 1.125rem 0 7.25rem;
 
 }
 .btn {
@@ -81,7 +82,7 @@
     color: #ffffff;
     font-size: 1.1rem;
     font-family: 'Roboto', sans-serif;
-    padding: 2rem;
+    margin: 2rem;
 }
 .btn-title{
     display: block;
@@ -104,16 +105,20 @@
 .holiday-section{
     text-align: center;
     padding: 4.25rem 0 3.125rem;
-    max-width: 50rem;
+    /*max-width: 50rem;*/
 }
 .holiday{
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.375em;
-    padding: 0 1.875rem 1.25rem;
-    margin: 0.92rem auto;
+    /*padding: 0 1.875rem 1.25rem;*/
+    /*margin: 0.92rem auto;*/
 
     /*margin: auto;*/
+}
+.holiday-foto{
+    margin:1rem 0 1.5rem;
 }
 .name{
     text-transform: capitalize;
@@ -131,6 +136,9 @@
 }
 .art-holiday{
     margin-bottom: 1.75rem;
+}
+.art-holiday:last-child {
+    margin-bottom: 0;
 }
 .img-img{
     width: 7.5rem;
@@ -158,6 +166,7 @@
     background-color: transparent;
     border-radius: 2rem;
     padding: 0.75rem 3.125rem;
+
     transition: 1s;
     border: 0.130rem solid #ff4e50
 }
@@ -193,16 +202,19 @@
         padding: 0 2rem 0;
     }
 
-    .holiday-section {
+    .holiday-foto {
         margin: auto;
         max-width: 42.5rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-
-    }
+        margin: 1rem auto 1rem;
+}
     .art-holiday {
-        flex-basis: 48%;
+        flex-basis: 50%;
+    }
+    .art-holiday:(n+3){
+        margin-bottom: 0%;
     }
     .text{
         padding: 0;
@@ -211,9 +223,10 @@
         margin: auto;
     }
 }
-/*@media(min-width: 942px) {*/
-    /*.art-holiday {*/
-        /*flex-basis: 25%;*/
-    /*}*/
-/*}*/
+@media(min-width: 942px) {
+    .art-holiday {
+        flex-basis: 17%;
+        margin-bottom: 0;
+    }
+}
 
