@@ -16,12 +16,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    padding: 1rem 0 8.125rem;
 }
 .container {
     min-width: 20rem;
     max-width: 58.88rem;
     margin: auto;
-    padding: 1rem 0.9rem;
+    padding: 0 0.9rem;
 }
 .header{
     margin-bottom: 2.5rem;
@@ -64,9 +65,9 @@
     text-transform: uppercase;
     font-weight: bold;
 }
-.main{
-    padding-bottom: 8.125rem;
-}
+/*.main{*/
+    /*padding-bottom: 8.125rem;*/
+/*}*/
 .title{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -154,7 +155,7 @@
     bottom: 0;
     right: 0;
     border-radius: 50%;
-    animation: rubberBand 1s;
+    animation: rubberBand 2s infinite;
 }
 .btn-hol{
     display: block;
@@ -182,15 +183,18 @@
         margin: auto;
         flex-direction: row-reverse;
         justify-content: space-between;
+        align-items: center;
     }
-
+    .nav{
+        margin: 0;
+    }
     .btn {
-        flex-basis: 30%;
+        flex-basis: 35%;
     }
 
-    .logo {
-        margin: 1.425rem 0 0 6rem;
-    }
+    /*.logo {*/
+        /*margin: 1.425rem 0 0 6rem;*/
+    /*}*/
 
     .main {
         margin-top: 9.5rem;
@@ -203,17 +207,16 @@
     }
 
     .holiday-foto {
-        margin: auto;
-        max-width: 42.5rem;
+        /*max-width: 42.5rem;*/
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 1rem auto 1rem;
+        margin: 1rem auto 2rem;
 }
     .art-holiday {
         flex-basis: 50%;
     }
-    .art-holiday:(n+3){
+    .art-holiday:nth-last-child(-n+2){
         margin-bottom: 0%;
     }
     .text{
@@ -225,8 +228,9 @@
 }
 @media(min-width: 942px) {
     .art-holiday {
-        flex-basis: 17%;
+        flex-basis: 20%;
         margin-bottom: 0;
+        justify-content: space-around;
     }
 }
 

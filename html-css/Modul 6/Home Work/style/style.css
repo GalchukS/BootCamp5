@@ -120,7 +120,7 @@
     content: "";
     width: 60px;
     height: 3px;
-    margin: 40px auto 60px;
+    margin: auto;
     background-color: #f38181;
     display: block;
 }
@@ -145,11 +145,11 @@
 }
 .team-photo{
     display: flex;
-    max-height: 600px;
-    flex-direction: column;
-    flex-wrap: wrap; /*разрешает перенос строки*/
-    align-items: center;
-    justify-content: space-evenly;
+    min-height: 600px;
+    /*flex-direction: column;*/
+    /*flex-wrap: wrap; !*разрешает перенос строки*!*/
+    /*align-items: center;*/
+    /*justify-content: space-evenly;*/
     margin-top: 100px;
 }
 .team-cover{
