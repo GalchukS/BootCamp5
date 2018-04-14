@@ -1,0 +1,20 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.picture{
+    height: 400px;
+    width: 350px;
+    background-image: url("../img/Layer 16@1X.jpeg");
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+@media(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .picture{
+        background-image: url("../img/Layer 19@1X.jpeg");
+    }
+}
